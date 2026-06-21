@@ -28,25 +28,25 @@ Additionally, since the desktop version of the ISFDB does not support editing or
 all wiki-related tables (mw_*) have been removed, as well as the following tables (controlled by the 
 EXCLUDED_TABLES variable):
 
-* author_views',
-* bad_images', 
-* changed_verified_pubs', 
-* cleanup', 
-* deleted_secondary_verifications',
-* front_page_pubs',
-* history', 
-* license_keys', 
-* reports', 
-* submissions', 
-* self_approvers', 
-* sfe3_authors',
-* tag_status_log',
-* title_views',
-* user_languages',
-* user_preferences', 
-* user_status', 
-* websites',
-* web_api_users'
+* author_views
+* bad_images
+* changed_verified_pubs
+* cleanup
+* deleted_secondary_verifications
+* front_page_pubs
+* history
+* license_keys 
+* reports
+* submissions
+* self_approvers
+* sfe3_authors
+* tag_status_log
+* title_views
+* user_languages
+* user_preferences 
+* user_status
+* websites
+* web_api_users
 
 If you wish to retain these tables, a simple alteration of the is_excluded() function is in order.
 
